@@ -1,5 +1,7 @@
 package com.powerrangers.screen;
 
+import java.util.Scanner;
+
 import com.powerrangers.AppContext;
 import com.powerrangers.util.*;
 
@@ -8,6 +10,9 @@ public class AccountSettingsScreen implements ScreenBase
     @Override
     public void show(AppContext appContext)
     {
+        Scanner scanner = appContext.getScanner();
+        
+
         System.out.println("Configuración de cuenta");
 
         Menu menu = appContext.createMenu()
