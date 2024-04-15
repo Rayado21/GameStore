@@ -10,9 +10,6 @@ public class AccountSettingsScreen implements ScreenBase
     @Override
     public void show(AppContext appContext)
     {
-        Scanner scanner = appContext.getScanner();
-        
-
         System.out.println("Configuración de cuenta");
 
         Menu menu = appContext.createMenu()
